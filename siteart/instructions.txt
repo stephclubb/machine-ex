@@ -1,0 +1,31 @@
+Add Auctiontime (AT) branding:
+If the website has more than one page, position the logo ONLY on the page where the AuctionTime listings appear. 
+
+There are two varieties of the AT brand logo in the folder.
+1. AuctionTimecom_PoweredBy.png is the regular logo, which can be used on any light background.
+2. AuctionTimecom_PoweredBy_REVERSED.png is a white logo to use on darker backgrounds.
+
+Use whichever logo works best for the website you are adding it to.
+
+
+Here is an example of the image tag with alt text that they would like us to use:
+<img src="siteart/AuctionTimecom_PoweredBy.png" alt="Online Bidding Powered By AuctionTime.com" style="width:250px;" />
+
+
+For example, view these websites where we have already added the AT branding:
+
+http://www.westruxauctions.com/
+
+http://www.machinerysupplyauctions.com/
+
+http://www.seamoreauctions.com/
+
+http://www.kcbobcatauctions.com/timedauctions.htm
+
+http://www.maximoauctions.com/default.htm
+
+http://www.baskinauctions.com/
+
+http://www.chabotauctions.com/default.htm
+
+http://www.majormachineryauctions.com/default.htm
