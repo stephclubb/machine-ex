@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+<loc>http://http://machine-ex.com.dev/default.htmm</loc>
+<changefreq>daily</changefreq>
+</url>
+
+<url>
+<loc>http://machine-ex.com.dev/sell_contact.htm</loc>
+<changefreq>daily</changefreq>
+</url>
+
+<url>
+<loc>http://machine-ex.com.dev/thankyou.htm</loc>
+<changefreq>daily</changefreq>
+</url>
+
+<url>
+<loc>http://machine-ex.com.dev/testimonials.htm</loc>
+<changefreq>daily</changefreq>
+</url>
+
+<url>
+<loc>http://machine-ex.com.dev/terms.htm</loc>
+<changefreq>daily</changefreq>
+</url>
+
+<url>
+<loc>http://machine-ex.com.dev/faq.htm</loc>
+<changefreq>daily</changefreq>
+</url>
+
+</urlset>

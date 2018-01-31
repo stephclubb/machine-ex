@@ -1,0 +1,1 @@
+<% response.redirect ("auctions.htm") %>
