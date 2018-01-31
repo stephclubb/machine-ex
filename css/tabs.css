@@ -1,0 +1,173 @@
+﻿
+#tabs-section {
+	display: block;
+}
+
+.tabs {
+	margin: 0 0 0 10px;
+	padding: 0;
+	list-style: none;
+}
+
+.tabs li {
+	display: inline;
+	float: left;
+}
+
+.tabs li a:link, .tabs li a:visited, .tabs li a:active {
+	text-decoration: none;
+	font-size:14px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align: center;
+	text-transform:uppercase;
+	position: relative;
+	display: block;
+	margin-right: 10px;
+	padding:8px 20px 6px 20px;
+	color: #fff;
+	border-top:1px #000 solid;
+	border-left:1px #000 solid;
+	border-right:1px #000 solid;
+	-moz-border-radius:5px 5px 0 0;
+	-webkit-border-radius:5px 5px 0 0;
+	border-radius:5px 5px 0 0;
+	background:#080808 url('../siteart/tab_bg_off.jpg') repeat-x;
+}
+
+.tabs li a:hover, .tabs li a.selected, .tabs li a.selected:active, .tabs li a.selected:visited {
+	text-decoration: none;
+	position: relative;
+	color: #fff;
+	background:#f74a4a;
+}
+
+.tabs li a.selected:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.tabcontent-wrapper iframe {
+    overflow: hidden;
+    width:1018px;  
+    height:1000px;
+    margin:0 auto;
+	display: block;
+    border:1px solid #000;
+    background:#fff;	
+    padding: 0;
+}
+
+
+
+
+
+
+/* 
+Example styles you can apply to your "Register To Bid" and "Log In" links.  
+There is no standard style for these links.
+In some cases you might simply add the links to the website's main navigation (using your navigation styles for them). 
+However, if these links will only appear on the same page as the AuctionTime listings, below is a way to style them as part of their own group--
+Just place them inside a div with id="logins".
+*/
+
+#logins {
+	float:left;
+	position:relative;
+	width:250px;
+	margin:10px 0 10px 10px;
+	color:#fff;
+}
+
+#logins a:link, #logins a:visited, #logins a:active {
+	color:#fff;
+	text-decoration:none;
+	display:block;
+	float:left;
+	position:relative;
+	margin:0 5px 0 0;
+	padding:4px 7px;
+	background:#000; /* Choose a background color which compliments your website */
+	font-size:12px;
+	border:1px #000 solid;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#logins a:hover {
+	color:#fff;
+	text-decoration:none;
+	background:#f74a4a; /* Choose a background color which compliments your website */
+}
+
+
+
+
+
+
+
+
+
+/* The styles below are ONLY for the AuctionTime Results.
+If AuctionTime Results are rquested, update the "#subnav a" styles as indicated. */
+
+#subnav {
+	background:url('../siteart/subnav-bg.gif') repeat-x bottom #fff;
+	border:1px solid #000;
+	border-bottom:0;
+	padding:5px 0;
+	font-size:13px;
+	line-height:13px;
+}
+
+#subnav a:link, 
+#subnav a:visited, 
+#subnav a:active {
+	text-decoration:none;
+	text-align:center;
+	color:#000;	 /* You can leave this black, or choose a text color complimenting your site. */
+	padding:5px 8px;
+	display:inline-block;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+}
+#subnav a:hover {
+	background:#f74a4a; /* Choose a background color which compliments your website */
+	color:#fff;
+}
+
+#subnav a.subnavcurrent{
+    color:#fff; 
+    background:#f74a4a; /* Choose the same background color as in "#subnav a:hover"  */
+    
+}
+
+ul#subNavList {
+    list-style:none; 
+    display:block; 
+    margin:0px; 
+    list-style:none; 
+    font-size:12px; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+ul#subNavList li {
+    float:left;
+    margin:0px; 
+    border-right:1px dotted #000; 
+    position: relative;
+}
+ul#subNavList li a.menu {
+    margin:2px 12px; 
+    display:block;
+}
+
+
+
+
+
+
+
+
+

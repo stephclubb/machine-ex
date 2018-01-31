@@ -1,0 +1,448 @@
+﻿body{
+	font-family:Arial, Helvetica, sans-serif;
+	color:black;
+	margin:15px 0px;	
+	overflow-x:scroll;
+	overflow-y:scroll;	
+	background-repeat:repeat-x;
+	
+}	
+
+td {
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:12px;
+}
+
+form {
+	margin:0px;
+	padding:0px;
+}
+
+a {color:black;}
+a:hover {color:#00cc00;}
+
+
+.nopadding{padding:0px;}
+
+
+
+
+
+.topdivdemo1 {
+	color:#ffffff;
+	font-size:12px;
+	font-weight:bold;
+	background-color:#962e1d;
+	padding:7px;
+}
+
+.botdivdemo1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	width:300px;
+	border:1px solid #4e4e4e;
+	padding:7px;
+	background-color:#e4e4e4;
+}
+
+.botdivAuctionDates {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	padding:7px 12px;
+	width:185px;
+	background: url(../siteart/background.gif) repeat top left #e6e5e6; 	
+	border:  1px solid #6d6d6d;
+	border-top: 0;
+	margin-left:0px;
+	margin-top:0px;
+	left: 0;
+	top: 34px;
+	text-align:left;
+}
+
+
+
+.heading {
+	font-size:19px;
+	color:#000000;
+	font-weight:bold;
+}
+
+.subheading {
+	font-size:17px;
+	color:#365a91;
+	font-weight:bold;
+}
+
+.subhead {
+	font-size:17px;
+	color:#365a91;
+	font-weight:bold;
+}
+
+hr
+{
+	color:#000000; 
+	height:1px; 
+	border:0; 
+	background-color:#000000;
+}
+
+hr.header
+{
+	
+}
+
+#listings .listingheader {
+	padding:4px 5px;
+	font-weight:bold;
+	background-color:#bab2a8;
+}
+
+
+#listings .listingsubheader {
+	padding:4px 5px;
+	background-color:#920000;
+	font-weight:bold;
+	color:white;
+}
+
+
+#listings .tablerow {padding:4px 5px;}
+#listings .alttablerow {padding:4px 5px; background-color:#f2ede6;}
+
+#listings .info {
+	padding:4px 5px 4px 0px;
+	background-repeat:repeat-x;
+}
+
+#listings img {
+	border:0px;
+	margin-right:5px;
+}
+
+#listings a.smallink {font-size:10px; line-height:12px;}
+
+#listings a.whitelink{color:#ffffff;}
+#listings a.whitelink:hover {color:silver;}
+
+
+a.redlink{color:#b12c1b;}
+a.redlink:hover {color:black;}
+
+#listings .currentbid {
+	color:#b12c1b;
+	font-size:14px;
+}
+
+
+
+
+
+#listingthumb td {
+	text-align:right;
+	padding:0px 0px 10px 10px;
+}
+
+
+
+.smallblack {color:#000000; font-size:11px;}
+
+
+
+
+
+
+
+.smallgray {color:#6b6b6b; font-size:11px;}
+.boldred {color:#b12c1b; font-weight:bold;}
+.redtext {color:#b12c1b;}
+.bluetext {color:#365a91;}
+.boldblue {color:#365a91; font-weight:bold;}
+.whitetext {color:#ffffff;}
+.smallblack {color:#000000; font-size:11px;}
+.smallred {color:#b12c1b;font-size:11px;}
+.confirmtext {color:green; font-weight:bold;}
+.errortext {color:#b12c1b; font-weight:bold;}
+
+a.smalllink:visited {color:black; font-size:11px;}
+
+a.smalllink:active {color:black; font-size:11px;}
+
+a.smalllink {color:black; font-size:11px;}
+a.smalllink:hover {color:#00cc00;}
+
+
+
+
+
+
+
+
+
+
+
+
+.bodytagheader {
+	background:#cccccc;
+	font-family: "arial","Helvetica";
+    font-size:11px;
+    border:1px solid #000000;
+    padding:0px;
+    width:350px;
+    text-align:left;
+}
+
+.infoheader{
+	font-size:12px;
+	font-weight:bold;
+	background-color:maroon;
+	padding:2px 0px 2px 9px;
+	color:white;
+}
+.infobox{
+	padding:7px 10px;
+	font-size:11px;
+}
+
+
+
+
+
+
+/****** Start of styles used on homepage and 2nd pages ******/
+#footer {
+	font-size:11px;
+	padding:7px;
+	text-align:center;
+}
+#footerlinks {
+	font-size:11px;
+	padding:5px;
+	text-align:center;
+	background-color:#ccc7c0;
+}
+
+#footerlinks a {color:#483d2c; text-decoration:none;}
+#footerlinks a:hover {color:#70695e;}
+
+/* Zoom Feature Styles */
+.drag
+{
+	position: absolute;
+	cursor:	pointer;
+}
+
+.ThumbnailImage
+{
+	height: 90px;
+	width: 120px;
+	overflow: hidden;	
+}
+
+@media screen
+{
+	.dragSmall
+	{
+		position:absolute;
+		cursor: hand;
+		z-index:100;
+		background-color: rgb(25, 8, 248); 
+		opacity: .35;
+		-moz-opacity:.35;
+		filter: alpha(opacity=35);
+	}
+	
+	.underHover
+	{
+		position:absolute;
+		cursor: hand;
+		z-index:50;
+		background-color: rgb(255, 255, 255); 
+		opacity: .01;
+		-moz-opacity:.01;
+		filter: alpha(opacity=1);		
+	}
+	
+	.Info
+	{
+		position: relative;
+	}
+}
+
+@media print
+{
+	.dragSmall
+	{
+		display: none; 	
+	}
+	
+	.underHover
+	{
+		display: none;
+	}
+	
+	.Info
+	{
+		display: none;
+	}	
+}
+
+
+
+
+/* Styles to Change */
+
+
+.listheading {
+	font-weight:bold;
+	font-size:16px;
+	color:#332b1f;   /*change to appropriate color*/
+}
+
+
+.OAListingsHeader {
+    background: #332b1f;   /*change to appropriate color*/
+    color: #fff;	/* Leave As-Is, unless background color is very light.*/
+}
+
+.OAListingsHeader a {
+    color: #fff;	/* Leave As-Is, unless background color is very light.*/
+}
+
+.OAListingsHeader a:hover {
+    color: #fff;	/* Leave As-Is, unless background color is very light.*/
+}
+
+a:hover {
+	color:#952f19;   /*change to appropriate color*/
+}
+
+a.smalllink:hover {
+   color:#952f19;   /*change to appropriate color*/
+}
+
+
+.SubHeaderBGColor {
+    background:#332b1f;    /*change to appropriate color*/
+}
+
+
+/* The two buttons, "Register FREE Now" and "I'll Register Later" seen on the Log In AuctionTime page */
+
+#BodyContent_tdRegNow a:link,
+#BodyContent_tdRegNow a:active,
+#BodyContent_tdRegNow a:visited {
+	color:#fff;	
+	text-decoration:none;
+}
+#BodyContent_tdRegNow a:hover {
+	color:#ccc;	
+	text-decoration:none;
+}
+
+
+#BodyContent_tdRegLater a:link,
+#BodyContent_tdRegLater a:active,
+#BodyContent_tdRegLater a:visited {
+	color:#fff;	
+	text-decoration:none;
+}
+#BodyContent_tdRegLater a:hover {
+	color:#ccc;	
+	text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ListingsSorterColumnStyle {
+    color:#ffffff;
+}
+
+.OALListPageSortingColumnsRow {
+    background:#bab1a8;    
+}
+
+
+
+.OALListPageSortingColumnsRow a:hover {
+    color:#000;
+}
+
+.OALCurrentBid {
+    color:#ff0000; 
+    font-size:15px; 
+    font-weight: bold;
+}
+
+.OALDetailCurrentBid {
+    color:#ff0000; 
+    font-size:15px; 
+    font-weight: bold;
+}
+
+.OALNewBidValue {
+    color:#ff0000; 
+    font-size:11pt; 
+    font-weight: bold;
+}
+
+.OALHighBidderTDStyle {
+    background-color:#ffe054;
+    padding: 4px; 
+}
+
+.OALHighBidderMsgStyle {
+    font-size:14pt;
+    font-weight:bold;
+}
+
+.OALSellerInformationTable {    
+    background-image: url(/siteart/sellerbg5.gif); 
+    border-right: #000000 1px solid; 
+    border-top: #000000 1px solid; 
+    border-left: #000000 1px solid; 
+    border-bottom: #000000 1px solid;
+}
+
+.OALBidWillExtendMsg {
+    font-weight:bold;
+    color:blue;
+}
+
+
+/* Auction Result Styles */
+.ListingOneLineHeader td {
+    font-size: 11px; 
+}
+
+tr.cListingHeader-Bar {
+    background-color: black;
+}
+
+tr.cListingHeader-Bar td a {
+    color: #cccccc !important;
+}
+
+tr.cListingHeader-Bar td a:hover {
+    color: #fff !important;
+}
+
+
+.OnlineAuctionResultHeaderBGColor{ 
+    background-color:#CCCCCC;
+}
+
+.OnlineAuctionResultSorterColumnStyle{
+    color:#000000;
+}

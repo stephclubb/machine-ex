@@ -1,1 +1,773 @@
 
+@font-face {
+    font-family: 'montserratbold';
+    src: url('../webfonts/montserrat-bold-webfont.eot');
+    src: url('../webfonts/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webfonts/montserrat-bold-webfont.woff2') format('woff2'),
+         url('../webfonts/montserrat-bold-webfont.woff') format('woff'),
+         url('../webfonts/montserrat-bold-webfont.ttf') format('truetype'),
+         url('../webfonts/montserrat-bold-webfont.svg#montserratbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratlight';
+    src: url('../webfonts/montserrat-light-webfont.eot');
+    src: url('../webfonts/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webfonts/montserrat-light-webfont.woff2') format('woff2'),
+         url('../webfonts/montserrat-light-webfont.woff') format('woff'),
+         url('../webfonts/montserrat-light-webfont.ttf') format('truetype'),
+         url('../webfonts/montserrat-light-webfont.svg#montserratlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../webfonts/montserrat-regular-webfont.eot');
+    src: url('../webfonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webfonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../webfonts/montserrat-regular-webfont.woff') format('woff'),
+         url('../webfonts/montserrat-regular-webfont.ttf') format('truetype'),
+         url('../webfonts/montserrat-regular-webfont.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+	margin:0; 
+	padding:0; 
+	font-family: 'montserratregular';
+	background-color:#fff; 
+	color:#252525;
+}
+
+a{color:#fff; text-decoration:none;}
+
+a:hover{color:#f74a4a;}
+
+h1{font-size:26px;color:#252525;font-family: 'montserratbold'; text-transform:uppercase;}
+h2{font-size:22px;color:#252525;font-family: 'montserratbold'; text-transform:uppercase;}
+h3{font-size:16px;color:#252525;font-family: 'montserratbold'; text-transform:uppercase;}
+h4{font-size:16px;color:#fff;font-family: 'montserratbold'; text-transform:uppercase;}
+h5{font-size:14px;color:#fff;font-family: 'montserratbold'; text-transform:uppercase; margin:0 !important;}
+
+u{border-bottom:2px solid #252552; text-decoration: none;}
+u2{border-bottom:2px solid #fff; text-decoration: none;}
+
+#header-wrap{}
+.header{
+	background:#fff;
+	margin: 0 auto;
+	-moz-box-shadow: 0px 1px 5px #999;;  /* for Mozilla Ffox */
+	-webkit-box-shadow: 0px 1px 5px #999;;  /* for Safari, Chrome & others */
+	box-shadow:0px 1px 5px #999;;  /* for IE9 */
+	position:relative;
+	z-index:5;
+	padding:15px;
+	min-height:50px;
+}
+
+.header img {
+	width:250px;
+	display:inline-block;	
+}
+
+.phone {
+	float: right;
+    margin: 40px 0px 0 0;
+    font-size: 13px;
+	color:#252525;	
+	text-align:right;
+	line-height:22px;
+}
+
+.phone a {
+	color:#252525;	
+}
+
+.phone a:hover {
+	text-decoration:underline !important;	
+}
+
+.button{
+    background-color: #252525;
+    border: none;
+    color: #fff;
+    padding: 10px 26px;
+	margin: 30px 10px 0 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+	-moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    border-radius: 5px;
+	float:left;
+	text-transform:uppercase;
+	-moz-box-shadow: 0px 1px 5px #252525;  /* for Mozilla Ffox */
+	-webkit-box-shadow: 0px 1px 5px #252525;  /* for Safari, Chrome & others */
+	box-shadow: 0px 1px 5px #252525;  /* for IE9 */
+}
+
+.button:hover{
+    background-color: #ed1c24;
+	color:#fff;
+}
+
+.redbutton{
+    background-color: #f74a4a;
+    border: none;
+    color: #fff;
+    padding: 10px 26px;
+	margin: 30px 10px 0 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+	-moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    border-radius: 5px;
+	float:left;
+	text-transform:uppercase;
+	-moz-box-shadow: 0px 1px 5px #252525;  /* for Mozilla Ffox */
+	-webkit-box-shadow: 0px 1px 5px #252525;  /* for Safari, Chrome & others */
+	box-shadow: 0px 1px 5px #252525;  /* for IE9 */
+
+}
+
+.redbutton:hover{
+    background-color: #c43838;
+	color:#fff;
+}
+
+
+.clear{clear:both;}	
+
+
+.wrapper{
+	max-width:1080px;
+	margin: 0 auto;
+	padding:0 10px;
+}
+
+a img.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+/**BUY SECTION**/
+
+.buy{
+	background-color:#fff;
+	margin:0px auto;
+	height:auto;
+	padding:40px;
+	text-align:center;
+}
+
+.buytext {
+	padding-top:15px;
+	line-height:24px;
+	font-size:13px;
+	color: #252525;
+	text-align:center;
+	margin:0 auto;
+}
+
+/**BUY BOXES**/
+
+.buyboxes{
+	width:100%; max-width:1080px; margin:25px 0; display:inline-block;	
+}
+
+.buybox{float:left; max-width:520px; width:100%;position:relative; margin:10px;}
+
+.ag_box {display:inline-block; background:url(../siteart/ag_on.jpg) no-repeat; width:520px; height:220px; transition:background 0.4s ease-in-out; -moz-transition:background 0.4s ease-in-out; -webkit-transition:background 0.4s ease-in-out;margin-left:0 !important; }
+.ag_box:hover {background:url(../siteart/ag.jpg) no-repeat;}
+
+.construction_box {display:inline-block; background:url(../siteart/construction_on.jpg) no-repeat; width:520px; height:220px; transition:background 0.4s ease-in-out; -moz-transition:background 0.4s ease-in-out; -webkit-transition:background 0.4s ease-in-out;margin-left:0 !important;}
+.construction_box:hover {background:url(../siteart/construction.jpg) no-repeat;}
+
+.truck_box {display:inline-block; background:url(../siteart/truck_on.jpg) no-repeat; width:520px; height:220px; transition:background 0.4s ease-in-out; -moz-transition:background 0.4s ease-in-out; -webkit-transition:background 0.4s ease-in-out;margin-left:0 !important;}
+.truck_box:hover {background:url(../siteart/truck.jpg) no-repeat;}
+
+.auction_box {display:inline-block; background:url(../siteart/auction_on.jpg) no-repeat; width:520px; height:220px; transition:background 0.4s ease-in-out; -moz-transition:background 0.4s ease-in-out; -webkit-transition:background 0.4s ease-in-out;margin-left:0 !important;}
+.auction_box:hover {background:url(../siteart/auction.jpg) no-repeat;}
+
+
+
+/**SELL SECTION**/
+
+.sell{
+	background-color:#f2f2f2;
+	margin:0px auto;
+	height:auto;
+	padding:40px 0 80px 0;
+	text-align:center;
+}
+
+.selltext {
+	padding-top:15px;
+	line-height:24px;
+	font-size:13px;
+	color: #252525;
+	text-align:center;
+	margin:0 auto;
+}
+
+.sellboxes{
+	max-width:1080px; margin:60px auto 0 auto; display:inline-block;	
+}
+
+.sellbox{float:left; position:relative; margin:10px 35px;font-size: 11px;max-width: 170px;line-height: 20px;}
+
+
+/**ABOUT SECTION**/
+
+.about{
+	background-color:#252525;
+	margin:0px auto;
+	height:auto;
+	padding:40px 0 80px 0;
+	text-align:center;
+	background-image:url(../siteart/tech_draw.png);
+	background-repeat: no-repeat;
+    background-position: bottom;
+	font-family:'montserratlight';
+}
+
+.abouttext {
+	padding:15px 0 80px 0;
+	line-height:24px;
+	font-size:13px;
+	color: #fff;
+	text-align:center;
+	margin:0 auto;
+	max-width:725px;
+}
+
+
+
+/***CONTACT SECTION**/
+
+.contact {
+	margin:0px auto;
+	height:auto;
+	width:100%;
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-image:url(../siteart/contact_bg.jpg);
+	font-family:'montserratlight';
+	padding:50px 0;
+}
+
+.contactaddress {
+	line-height:24px;
+	font-size:13px;
+	color: #fff;
+	text-align:left;
+	float:left;
+	width:50%;
+}
+
+.contactform {
+	color: #fff;
+	width:50%;
+	float:left;
+}
+
+.contactcontainer{
+	background:rgba(255,255,255,0.2);
+	margin:0 auto;	
+	padding:40px;
+}
+
+/**CONNECT SECTION **/
+
+.connect {
+	background-color:#fff;
+	margin:0px auto;
+	height:auto;
+	padding:40px 0;
+}
+
+.mailing {
+	width:50%;
+	float:left;
+	text-align: center;
+}
+
+.social {
+	width:50%;
+	float:left;
+	text-align: center;
+}
+
+.social img {
+	display:inline-block;	
+}
+
+.social a {
+	margin:0 10px;	
+}
+
+
+/***SELL CONTACT SECTION**/
+
+.sell_contact {
+	margin:0px auto;
+	height:auto;
+	width:100%;
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-image:url(../siteart/contact_bg2.jpg);
+	font-family:'montserratlight';
+	padding:50px 0;
+}
+
+.sell_contactaddress {
+	line-height:24px;
+	font-size:13px;
+	color: #fff;
+	text-align:left;
+	float:left;
+	width:100%;
+}
+
+.sell_contactform {
+	color: #fff;
+	width:100%;
+	float:left;
+}
+
+.sell_contactcontainer{
+	background:rgba(255,255,255,0.2);
+	margin:0 auto;	
+	padding:40px;
+}
+
+/**INV**/
+
+.inv {
+	background-color:#252525;
+	margin:0px auto;
+	height:auto;
+	padding:40px 0 80px 0;
+	text-align:center;
+	font-family:'montserratlight';
+}
+
+.invcontainer {
+	background:rgba(255,255,255,1);
+	margin:0 auto;	
+	padding:40px;
+}
+
+/** **/
+
+.thank_you{
+	background:#252525;
+	margin:0px auto;
+	padding:130px 10px;
+}
+
+.thank_you_text{
+	color:#252525;
+	text-align:center;
+	line-height:32px;
+	font-family:'montserratregular';
+}
+	
+.home_map{
+	float:left;
+	margin: 15px 5px;
+}
+
+.map {
+    width:100%;
+    height:500px;    
+}
+
+.map-wrap {
+    position:relative; 
+}
+         
+.overlay {
+    width:100%;
+    min-height:200px; 
+    position:absolute; 
+    top:0;
+}
+
+.overlay_contact{
+    width:100%;
+    min-height:650px; 
+    position:absolute; 
+    top:0;
+}
+
+.contact_us{
+	background:#252525;
+	color:#252525;
+	padding:40px 10px;
+	line-height:24px;
+}
+
+.contact_us a {
+	color:#00264c;
+	font-family:'montserratlight';
+}
+
+.gallery{
+	margin: 40px auto 0 auto;	
+}
+
+
+/*  SCROLLING INVENTORY
+------------------------------------------------*/
+.scrolling-wrap {
+    width:100%;
+    height:90px;
+    overflow:hidden;
+}
+ 
+.scrolling{
+    width:100%;
+    height:92px;
+}
+	
+	
+
+/* FOOOTER CSS */	
+
+.bottom {background:#fff;padding:11px 0;}
+
+footer {margin: 0 auto;padding:10px;}
+a.footerlink:link, a.footerlink:visited, a.footerlink:active{text-decoration:underline; font-family:'montserratlight';font-size:10px;color: #666;}
+a.footerlink:hover {text-decoration:none; font-family:'montserratlight';font-size:11px; color:#666; text-decoration:underline;}
+
+.footertext{font-family:'montserratlight';font-size:11px; color:#666;}
+
+.smallfootertext{font-family:'montserratlight';font-size:11px; color:#666;}
+
+.divfooter {max-width:700px;text-align:center;margin:40px auto;}
+
+
+/*control the Captcha */
+
+.CaptchaPanel {
+    margin:0 0 5px 0 !important;
+    padding:0 0 0 0 !important;
+    text-align: center;
+    line-height:normal !important;
+}
+
+.subscribe-box form .CaptchaPanel img {width:60%; height:auto;}
+.CaptchaPanel img {width:40%; height:auto;}
+
+.CaptchaImagePanel {
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+}
+
+.CaptchaMessagePanel {
+    padding:0 0 0 0 !important;
+    margin:0 0 0 0 !important;
+    font-weight:normal !important;
+    font-size:12px;
+    line-height:14px;
+}
+
+.CaptchaAnswerPanel {
+    margin:0 0 0 0;
+    padding:2px 0px 2px 0px !important;
+    background-color: #fff;
+    border: 1px solid #ccc;
+	width:60%;
+	margin:5px 20%;
+}
+
+.CaptchaWhatsThisPanel {
+	line-height:0;
+	margin:0 0 0 0;
+	padding:8px 0 8px 0 !important;
+}
+.CaptchaWhatsThisPanel a {color:#000;}
+.CaptchaWhatsThisPanel a:hover {text-decoration:none;}
+ 
+ 
+/*----FORM------*/
+
+#content {
+	padding:30px 0;
+	position:relative;
+}
+
+#col {
+	width:320px;
+	float:left;
+	display:inline-block;
+	margin:0 20px 0 0;
+}
+
+#col.right {
+	margin:0;
+}
+
+#one-col {
+	width:1000px;
+	margin:0 0px 0 0;
+	float:left;
+	display:inline-block;	
+}
+
+#two-col {
+	width:660px;
+	margin:0 20px 0 0;
+	float:left;
+	display:inline-block;	
+}
+
+#two-col.right {
+	margin:0;
+}
+
+.myform label{
+	padding:4px 5px 4px 0;
+	display:inline-block;
+	width:135px;
+	font-size:14px;
+	color:#fff;
+	text-align:left;
+}
+
+.myform input, .myform select, .myform textarea{
+	padding:5px;
+	width:99%;
+	margin-bottom:10px;
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	background:#fff;
+	border:1px solid #ddd;
+	font-size: 14px;
+}
+
+.myform textarea{
+	font-size:14px;
+	height: 120px;
+}
+
+.myform input.button, .myform input.button:focus{
+	width:40%; 
+	border:0; 
+	text-align:center; 
+	background-color: #f74a4a;
+    border: none;
+    color: #fff;
+    padding: 10px 26px;
+	margin: 30px 10px 0 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+	-moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    border-radius: 5px;
+	float:left;
+	text-transform:uppercase;
+	-moz-box-shadow: 0px 1px 5px #252525;  /* for Mozilla Ffox */
+	-webkit-box-shadow: 0px 1px 5px #252525;  /* for Safari, Chrome & others */
+	box-shadow: 0px 1px 5px #252525;  /* for IE9 */
+	height: 1%;/*For IE7*/ 
+	text-align:center;
+	color:#fff;
+	margin:20px 0;
+	float:right;
+}
+
+
+
+.myform input.button:hover {
+	background-color: #c43838;
+	color:#fff;
+	height: 1%;/*For IE7*/ 
+}
+
+.myform label.checkbox, .myform input.checkbox{width:14px; border:none; margin:5px 10px 0 0; padding:0;}
+
+.myform input:focus, .myform textarea:focus{
+	background:#f1f0f1;
+	color:#000;
+}
+
+.myform .radiobuttons {display:inline; width:20px; border:none;}
+
+
+.questions {
+	background:#e7e7e7;
+	padding:20px;
+	font-size:14px;
+	line-height:20px;
+	margin-top:30px;
+	
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/***** SUBSCRIBE BOX *****/
+.subscribe-box {
+	margin: 0px auto;
+    display: inline-block;
+}
+
+.subscribe-box form input.text {
+    width: 207px;
+    min-width: 135px;
+    min-height: 25px;
+    float: left;
+    position: relative;
+    font-size: 13px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font-family: sans-serif;
+    padding: 0 0 0 8px;
+	background-color: #e1e1e1;
+}
+
+.subscribe-box form input[type="submit"], .subscribe-box form input[type="button"] {
+    font-size: 12px;
+    width: 100px;
+    max-width: 170px;
+    float: left;
+    position: relative;
+    background: #252525;
+    color: #fff;
+    display: inline-block;
+    padding: 7px;
+    margin: 0 0 0 5px;
+    border: none;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font-family: 'montserratregular';
+}
+.subscribe-box form input[type="submit"]:hover, .subscribe-box form input[type="button"]:hover {text-decoration:none; color:#fff; background:#f74a4a url('../siteart/right-arrow.png') no-repeat right center;}
+
+
+
+
+
+/******** Basic Styles ********/
+
+.show-menu-for-mobile {display:none;}  /* At larger screen widths, the burger icon for the mobile menu won't be displayed. */
+
+
+
+
+
+
+
+/************************************************ Responsive Style Breakpoints ************************************/
+
+
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (max-width: 1025px) {
+
+.wrapper{
+	max-width:100%;
+	margin: 0 auto;
+	padding:0 10px;
+}
+
+.buy{padding:0;}
+
+.sellbox{float:none;}
+
+.buybox{max-width:none;}
+}
+
+@media screen and (max-width: 767px) {
+
+.header img {width:200px;}
+
+}
+
+@media screen and (max-width: 650px) {
+.contactform{width:100%}
+.contactaddress{width:100%}
+.social{width:100%;}
+.social a {margin:0;}
+.mailing{width:100%;}
+
+.buybox{margin:0;}
+
+.ag_box{background-size: 100%;width: 100%;}
+.construction_box{background-size: 100%;width: 100%;}
+.truck_box{background-size: 100%;width: 100%;}
+.auction_box{background-size: 100%;width: 100%;}
+
+.ag_box:hover{background-size: 100%;width: 100%;}
+.construction_box:hover{background-size: 100%;width: 100%;}
+.truck_box:hover{background-size: 100%;width: 100%;}
+.auction_box:hover{background-size: 100%;width: 100%;}
+}
+
+
+@media screen and (max-width: 400px) {
+.ag_box{height:180px;}
+.construction_box{height:180px;}
+.truck_box{height:180px;}
+.auction_box{height:180px;}
+
+.ag_box:hover{height:180px;}
+.construction_box:hover{height:180px;}
+.truck_box:hover{height:180px;}
+.auction_box:hover{height:180px;}
+}
+ 
+@media screen and (max-width: 320px){
+.show-menu-for-mobile {display: block;}
+.hide-for-mobile {display:none;}
+
+
+.subscribe-box form input.text {
+    max-width: 136px;
+}
+}

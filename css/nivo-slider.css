@@ -1,0 +1,197 @@
+/*
+ * jQuery Nivo Slider v3.2
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2012, Dev7studios
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+ 
+/*
+ * jQuery Nivo Slider v3.2
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2012, Dev7studios
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+ 
+
+/* The Nivo Slider styles */
+.slider-wrapper { 
+	width:100%;
+	margin:0 auto;
+	position: relative;
+    z-index: 3;
+}
+
+.nivoSlider {
+	position:relative;
+	width:100%;
+	height:auto;
+	/*overflow: hidden;*/
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	
+}
+.nivo-main-image {
+	display: block !important;
+	position: relative !important; 
+	width: 100% !important;
+}
+
+
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	-webkit-opacity:0;
+	-moz-opacity:0;
+	-khtml-opacity:0;
+}
+
+
+
+
+
+
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:7;
+	height:100%;
+	top:0;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:8;
+	overflow:hidden;
+}
+.nivo-box img { display:block; }
+
+ 
+.nivo-caption {
+	position: absolute;
+    top: 20%;
+    z-index: 9;
+    display: none;
+    -webkit-box-sizing: border-box;
+    color: #252525;
+    padding: 20px 10px 20px 10px!important;
+    font-size: 14px;
+    line-height: 20px;
+    font-family:'montserratregular';
+    width: 100%;
+	margin-left:15%;
+	text-shadow: 0px 1px 2px rgba(0,0,0,.6);  /* not recognized by IE 7, 8, 9 */
+	text-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+}
+
+.nivo-caption h2 {
+	color:#000;
+	font-size:18px;
+	font-family: 'montserratbold';
+	font-weight:normal;
+}
+.nivo-caption h3 {
+	color:#595959;
+	font-size:16px;
+	font-family: 'montserratbold';
+	font-weight:normal;
+}
+.nivo-caption p {
+	padding:0 0 5px 0 !important;
+	margin:0 0 0 0 !important;
+	font-size:20px !important;
+	line-height:20px !important;
+}
+.nivo-caption a {
+	display:block !important;
+	width:150px;
+}
+.nivo-html-caption {
+    display:none;
+}
+
+*/
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:10;
+	cursor:pointer;
+	display:block !important;
+	text-decoration:none;
+	transition:none !important;
+	-moz-transition:none !important;
+	-webkit-transition:none !important;
+}
+
+.nivo-prevNav {
+	left:0px;
+}
+.nivo-nextNav {
+	right:0px;
+}
+/* Control nav styles (e.g. 1,2,3... or bullets) */
+.nivo-controlNav {
+	text-align: center;
+	z-index: 999;
+	position: relative;
+	margin-top:-62px;
+	
+}
+.nivo-controlNav a {
+	cursor:pointer;
+}
+
+.nivo-controlNav a.active {
+	font-weight:bold;
+}
+
+
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (max-width: 1023px) {
+
+}
+
+@media screen and (max-width: 767px) {
+.nivo-caption{display:none !important;}
+}
+
+@media screen and (max-width: 550px) {
+
+}
+
+@media screen and (max-width: 320px){
+
+
+}
+
+
+
+
+
+
+
+
+
+
