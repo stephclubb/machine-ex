@@ -1,7 +1,0 @@
-name: Steph Clubb
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
