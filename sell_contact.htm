@@ -105,7 +105,20 @@
 <body>
 	<div class="header">
 		<a href="index.html"><img src="siteart/main_logo.png" alt="Machine-Ex" /></a>
-		<!-- #include file="sale_nav.htm"-->
+		<div id="navcontain">
+			<nav id='cssmenu'>
+			<div id="head-mobile"></div>
+			<div class="navbutton"></div>
+				<ul>
+					<li><a href="/index.html">HOME</a></li>
+					<li><a href="/index.htm#buy">BUY MACHINE</a></li>
+					<li><a href="/index.htm#sell">SELL MACHINE</a></li>
+					<li><a href="/index.htm#about">ABOUT US</a></li>
+					<li><a href="/index.htm#contact">CONTACT US</a></li>
+					<li><a href="/index.htm#connect">CONNECT WITH US</a></li>
+				</ul>
+			</nav>
+			</div>
 		<div style="clear:both;"></div>
 	</div>
 
@@ -115,15 +128,15 @@
 			<div class="sell_contactaddress">
 				<h4>Sell you machine</h4>
 				Do you have an item of machinery you're looking to sell? Contact Machine-Ex via the enquiry form below and we'll be in touch to help you along with the process.
-				Email: <a href="mailto:info@machine-ex.com">info@machine-ex.com</a><br>
+				Email: <a href="mailto:info@machine_ex.com">info@machine_ex.com</a><br>
 			</div>
 			<div class="sell_contactform">
 				<h4>Make a sale enquiry</h4>
-				<form action="thankyou.htm" method="post" onSubmit="return validation(this)" class="myform">
+				<form action="sell_contact.htm" method="post" onSubmit="return validation(this)" class="myform">
 				<input type="hidden" name="form_fieldlist" value="Request,Primary_Name,Email,Phone,Company,Street,City,State,Zip,Country,Comments" />
 				<input type="hidden" name="form_subject" value="Contact from Website" />
 				<input type="hidden" name="form_thankyou" value="thankyou.htm" />
-				<input type="hidden" name="form_to" value="info@machine-ex.com" /> 
+				<input type="hidden" name="form_to" value="info@machine_ex.com" /> 
 
 				<label for="Primary_Name">Your name:*</label><input name="Primary_Name" type="text" /> <br />
 				<label for="Email">Your email:*</label><input name="Email" type="text" /> <br />
@@ -154,11 +167,11 @@
 				<div class="mailing">
 				<h3>Receive stock updates</h3>
 					<div class="subscribe-box">
-					<form method="post" action="default.htm" style="margin:0px;" onSubmit="return validation(this)">
+					<form method="post" action="index.html" style="margin:0px;" onSubmit="return validation(this)">
 					<input type="hidden" name="form_fieldlist" value="Primary_Name,Email">
 					<input type="hidden" name="form_subject" value="Request to Join Stocklist Email">
 					<input type="hidden" name="form_thankyou" value="thankyou.htm">
-					<input type="hidden" name="form_to" value="info@machine-ex.com">
+					<input type="hidden" name="form_to" value="info@machine_ex.com">
 					<input type="hidden" name="Primary_Name" value="Subscriber">
 					<input type="text" class="text" name="Email" placeholder="Enter Your Email Address">
 					<input type="submit" value="Sign Up!">
